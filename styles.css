@@ -1,0 +1,219 @@
+body {
+    background-image: url("https://i1.sndcdn.com/artworks-9g7OOLViMCqzKtL4-eTfMyA-t500x500.jpg"),
+      url("https://img.freepik.com/premium-photo/empty-room-black-light-background_570543-11010.jpg?size=626&ext=jpg&ga=GA1.1.1412446893.1704931200&semt=ais");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    padding: 9%;
+  }
+  .logo {
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    left: 5vw;
+    top: 9vh;
+  }
+  .material-symbols-outlined {
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 3vw;
+    top: 5vh;
+    color: white;
+  }
+  .abc {
+    margin: 10px auto;
+    margin-bottom: 10px;
+    display: flexbox;
+    align-items: center;
+  }
+  .main_heading {
+    align-items : center;
+    color: white;
+    font-family: "Brush Script MT", cursive;
+    font-style: oblique;
+  }
+  .conro {
+    max-width: 63px;
+    border-radius: 50%;
+  }
+  .artist {
+    max-width: 63px;
+    border-radius: 50%;
+  }
+  .photo {
+    width: 200px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 3%;
+  }
+  .button1 {
+    height: 45px;
+    width: 150px;
+    font-size: medium;
+    color: white;
+    background-color: green;
+    border: solid green 3px;
+  }
+  .button2 {
+    font-size: medium;
+    background-color: transparent;
+    color: white;
+    height: 45px;
+    width: 150px;
+    border: solid white 3px;
+  }
+  .icon {
+    padding: 10px;
+    color: white;
+    position: absolute;
+    right: 3vw;
+    font-size: large;
+  }
+  #i1 {
+    top: 10vh;
+  }
+  #i2 {
+    top: 15vh;
+  }
+  #i3 {
+    top: 20vh;
+  }
+  #i4 {
+    top: 25vh;
+  }
+  #i5 {
+    top: 30vh;
+  }
+  #i6 {
+    top: 35vh;
+  }
+  #i7 {
+    top: 40vh;
+  }
+  .streambox {
+    color: white;
+    font-family: Monument Extended, Helvetica, Arial, sans-serif;
+    letter-spacing: 0.1rem;
+  }
+  .streambox1 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    padding: 1.5rem;
+  }
+  .sicon {
+    background-color: rgba(146, 144, 144, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 1rem;
+    font-size: medium;
+    text-align: center;
+  }
+  .button1:hover,
+  .button2:hover {
+    background-color: rgb(227, 224, 224);
+  }
+  .button1:active,
+  .button2:active {
+    transform: translateY(2px);
+  }
+  .icon:hover,
+  .sicon:hover,.ri-play-fill:hover {
+    opacity: 30%;
+  }
+  .tl {
+    color: white;
+    padding: 30px;
+  }
+  .track_list {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    border: 3px;
+    line-height: 0;
+  }
+  .track_list div {
+    border: 2px ;
+    align-self: center;
+  }
+  .track_list .song_no {
+    text-align: center;
+    width: 3rem;
+  }
+  .ri-play-fill{
+    align-items: center;
+    width: 5rem;
+  }
+  .track_list .songs {
+    font-weight: bold;
+    text-align: start;
+    width: 70rem;
+  }
+  .track_list .song_time {
+    text-align: start;
+    width: 5rem;
+  }
+  .ri-share-line{
+    align-items: center;
+    width: 7rem;
+  }
+  .iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+    margin-bottom: 15px;
+  }
+  .iframe-container iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .aboutus{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    border: 3px;
+    line-height: 0;
+    border: solid white 2px;
+  }
+  .aboutus1{
+    text-align: start;
+    width: 30%;
+    font-weight: bold;
+  }
+  .aboutus2 {
+    font-weight: bold;
+    text-align:start;
+    width:30%;
+  }
+  .aboutus3{
+    text-align: start;
+    width:30%;
+    font-weight: bold;
+  }
+  .acknowledge{
+    color: white;
+    border: 10px;
+    text-align: center;
+  }
+  .line{
+    color: white;
+    margin: 10px;
+    display: flex;
+  }
+  .line1{
+    border-right: 30%;
+  }
+  .music_container{
+    width: 100%;
+    border-radius: 1rem;
+  }
+  .music_container .audio{
+    width:100%;
+  }
